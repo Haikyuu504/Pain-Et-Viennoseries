@@ -163,6 +163,7 @@ img {
   font-size: 1rem;
   padding: 12px;
 }
+}
 .faq-answer.show {
   padding: 12px;
 }
@@ -235,5 +236,4 @@ img {
 .nav a {
   font-size: 20px;
   margin: 0 20px;
-}
 }
