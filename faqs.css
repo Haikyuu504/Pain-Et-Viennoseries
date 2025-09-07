@@ -169,4 +169,71 @@ img {
 .faq-icon {
   font-size: 1.3rem;
  }
+  @media (min-width: 768px) {
+.menu-btn {
+  display: none;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: static;
+  background: transparent;
+  box-shadow: none;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0;
+}
+.nav a {
+  border-bottom: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+.nav a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+.nav-container {
+  flex-direction: column;
+  align-items: center;
+}
+.nav-link {
+  width: 80%;
+  margin: 5px 0;
+ }
+}
+@media (min-width: 992px) {
+.header-img {
+  height: 100px;
+}
+.logo {
+  height: 100px;
+}
+.header-text {
+  font-size: 28px;
+  margin: 20px 0;
+}
+.header-text hr {
+  width: 180px;
+  height: 2px;
+}
+.nav a {
+  font-size: 18px;
+  margin: 0 15px;
+}
+.nav-container {
+  padding: 30px;
+}
+.nav-link {
+  padding: 12px 25px;
+  font-size: 18px;
+}
+@media (min-width: 1200px) {
+.header-text {
+  font-size: 32px;
+}
+.nav a {
+  font-size: 20px;
+  margin: 0 20px;
+}
 }
